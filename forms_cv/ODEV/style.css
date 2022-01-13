@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-size:5.625rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-size:2.5rem ;
+}
+
+h3{
+    font-size:2.5rem ;
+}
+.top-container {
+    background-color: #E4F9F5;
+}
+
+.button {
+    
+    font-size: 20px;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    background-color: rgb(221, 69, 42);
+}
+
+

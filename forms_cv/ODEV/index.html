@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAY?</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgA
+    AACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4Q
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAABEREREREREREAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AABABAQEBERAQEAEBAQEAEBAQAQEBAQAQEBABAQEBERAQEREBAQAAABAQAQABAAA
+    AEBABAAEAAAAQEAEBAQAAABAAAAAAAAAAABAAAAAAAAABERERERERERH/4AAAAA4
+    AAP//AAD//wAA//8AAGqFAABqtQAAarUAAGqFAAAK/QAAbv0AAG79AABq/QAA//8
+    AAH/+AAAAAAAA" rel="icon" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="top-container">
+    <div>
+      <h1>Who Are You ?</h1>
+    </div>
+    <img src="meet.png" alt="meeting">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="angela.png" alt="angela">
+      <h2>Hello.</h2>
+      <form action="result.html">
+        <!-- ----------INPUT TEXT PASSWORD-------- -->
+        <div id="userInfo">
+          <label for="ad">NAME:</label>
+          <input type="text" name="username" id="ad" placeholder="Name...">
+          <br><br>
+          <label for="soyad">SURNAME:</label>
+          <input type="text" name="surname" id="soyad" placeholder="Surname...">
+          <br><br>
+          <label for="eposta">EMAIL:</label>
+          <input type="email" name="email" id="eposta" placeholder="example@example.com" required>
+          <br><br>
+          <label for="sifre">PASSWORD:</label>
+          <input type="password" name="password" id="sifre" placeholder="Şifre giriniz...">
+
+        </div>
+
+        <!-- ------------RADIO BUTTON------------- -->
+        <div id="genderInfo">
+          <h3>GENDER</h3>
+
+          <input type="radio" name="cinsiyet" id="gender1" value="erkek">
+          <label for="gender1">MALE</label>
+
+          <input type="radio" name="cinsiyet" id="gender2" value="bayan">
+          <label for="gender2">FEMALE</label>
+        </div>
+
+        <!-- ------------CHECKBOX------------- -->
+        <!--CHECKBOX-->
+        <div id="interests">
+          <h4>Select at List Interests :</h4>
+          <input type="checkbox" name="software" id="html" value="html" checked>
+          <label for="html">HTML</label>
+          <input type="range" id="vol" name="vol" min="0" max="100">
+          <label for="vol">(between 0 and 100):</label>
+          <br>
+          <input type="checkbox" name="software" id="css" value="css">
+          <label for="css">CSS</label>
+          <input type="range" id="vol" name="vol" min="0" max="100">
+          <label for="vol">(between 0 and 100):</label>
+          <br>
+          <input type="checkbox" name="software" id="JavaScript" value="JavaScript">
+          <label for="JavaScript">JavaScript</label>
+          <input type="range" id="vol" name="vol" min="0" max="100">
+          <label for="vol">(between 0 and 100):</label>
+      </div>
+        <br>
+        <!--
+        <div>
+          <label for="yas">YAŞ:</label>
+          <input type="number" name="age" id="yas" min=7 max=70>
+        </div>
+        -->
+        <br>
+        <div>
+          <label for="ara">Favorite Book : </label>
+          <input type="search" name="search" id="ara" placeholder="Aranacak kelimeyi girin...">
+        </div>
+        <br>
+        <div>
+          <label for="renk">Favorite Color : </label>
+          <input type="color" name="color" id="renk">
+        </div>
+        <br>
+        <br>
+        <div>
+          <label for="dosya">Upload CV :</label>
+          <input type="file" name="file" id="dosya" multiple>
+        </div>
+        <br>
+        <div>
+          <label for="tel">Phone Number:</label>
+          <input type="tel" name="phone" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            placeholder="xxx-xxx-xx-xx">
+          <!-- 555-555-55-55 -->
+        </div>
+        <br>
+        <div>
+          <label for="">City : </label>
+          <select name="" id="">
+            <option value="Istanbul">Istanbul</option>
+            <option value="Ankara" selected>Ankara</option>
+            <option value="Mugla">Mugla</option>
+            <option value="Samsun">Samsun</option>
+          </select>
+        </div>
+        <br>
+        <div id="birthDate">
+          <label for="dogum">Date of Birth :</label>
+          <input type="date" name="date" id="dogum" value="2010-07-22" min="1990-01-01" max="2010-12-31">
+        </div>
+        <br><br>
+
+        <input type="reset" class="button">
+        <input type="submit" class="button">
+
+      </form>
+    </div>
+
+<br><br>
+
+
+
+</body>
+
+</html>
